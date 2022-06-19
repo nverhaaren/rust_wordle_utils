@@ -1,0 +1,18 @@
+[package]
+name = "wordle_utils"
+version = "0.1.0"
+edition = "2018"
+
+[[bin]]
+name = "wordle-game"
+path = "src/wordle_game.rs"
+
+[[example]]
+name = "simple-cat"
+path = "examples/simple-cat.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+itertools = "0.10"
+colored = "2"
